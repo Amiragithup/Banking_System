@@ -1,0 +1,48 @@
+<!-- ------------------------------------------------------------------------------ -->
+<!-- select one customer by name-->
+
+
+
+<div class="container-mt-3" >
+
+    <p>Select Customer By Name to show it's info in<br>the table down below</p>
+
+    <form name="formid">
+      <select name="selectID" id="selectID" class="form-control" [(ngModel)]="selectedvalue" (change) ="getbyid(selectedvalue)" >
+            <option hidden>Select Customer Name</option>
+            <option *ngFor="let namee of customerNames">
+              {{namee.customer_name}}
+            </option>
+           
+        </select>
+    </form>
+  
+
+  
+  <!-- ------------------------------------------------------------------------------ -->
+  <!-- view one customer info -->
+  
+  <!-- <div class="container-mt-3" > -->
+    <h2>The selected Customer info</h2>
+  
+    <table class="tableee" >
+        <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>CurrentBalance</th>
+                </tr>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor="let cust of readoneuser">
+                <td>{{cust.customer_id}}</td>
+                <td>{{cust.customer_name}}</td>
+                <td>{{cust.customer_email}}</td>
+                <td>{{cust.customer_current_balance}}</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  

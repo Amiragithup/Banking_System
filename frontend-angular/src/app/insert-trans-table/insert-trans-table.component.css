@@ -1,0 +1,47 @@
+
+
+.container-all
+{
+  
+    
+    width: 70%;
+    height: 70%;  
+    padding: 70px 0px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.266);
+    margin-top: 150px;
+    
+    
+}
+
+.container-all h2
+{
+    font-size: 40px;
+    color: #8a9b4a;
+}
+
+.tablee 
+{
+    
+    background-color: rgb(242, 224, 200);
+    color :rgb(85, 87, 38);
+    width: 80%;
+    margin: auto;
+    
+    
+  
+}
+.tablee th
+{
+    font-size: 40px;
+    border: 3px solid black;
+}
+
+.tablee td
+{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+}

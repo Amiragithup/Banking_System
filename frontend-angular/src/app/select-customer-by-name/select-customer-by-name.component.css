@@ -1,0 +1,240 @@
+.container-mt-3
+{
+    width: 70%;
+    height: 500px;  
+    padding: 50px 40px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.266);
+    margin-top: 150px;
+}
+
+p
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #8a9b4a;
+
+}
+
+#selectID
+{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(64, 90, 43);
+    background-color: antiquewhite;
+    width: 80%;
+    margin: auto;
+}
+
+h2
+{
+    font-size: 40px;
+    color: #8a9b4a;
+    padding: 10px 0px;
+}
+
+.tableee
+{
+    background-color: rgb(242, 224, 200);
+    color: rgb(64, 90, 43);
+    width: 80%;
+    height: 120px;
+    margin: auto;
+}
+
+.tableee th
+{
+    font-size: 35px;
+    border: 3px solid black;
+}
+
+.tableee td
+{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+}
+
+
+/*---------------------------------------------*/
+
+
+@media (max-width: 2025px) 
+{
+   
+    .container-all
+    {
+   
+        width: 80%;
+        height: 70vh;  
+        padding: 20px 10px;
+        margin-top: 170px;
+ 
+    }
+    
+    .container-all h2
+    {   
+        font-size: 30px;
+        margin-top: 5px;
+        
+    }
+    
+    .tablee 
+    {
+        width: 80%;
+        margin: auto;
+        
+    }
+   
+    .tablee th
+    {
+        font-size:20px;
+    }
+    
+    .tablee td
+    {  
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 730px) 
+{
+    .container-all
+    {
+   
+        width: 80%;
+        height: 70vh;  
+        padding: 20px 0.5px;
+        margin-top: 170px;
+ 
+    }
+    
+    .container-all h2
+    {   
+        font-size: 30px;
+        margin-top: 5px;
+        
+    }
+    
+    .tablee 
+    {
+        width: 70%;
+        margin: auto;
+        
+    }
+   
+    .tablee th
+    {
+        font-size:20px;
+    }
+    
+    .tablee td
+    {  
+        font-size: 20px;
+    }
+
+
+}
+@media (max-width: 640px) 
+{
+    .container-all
+    {
+   
+        width: 80%;
+        height: 60vh;  
+        padding: 20px 0.5px;
+        margin-top: 170px;
+        
+ 
+    }
+    
+    .container-all h2
+    {   
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    
+    .tablee 
+    {
+        width: 60%;
+        margin: auto;
+    }
+   
+    .tablee th
+    {
+        font-size:15px;
+    }
+    
+    .tablee td
+    {  
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 400px) 
+{
+    .container-mt-3
+    {
+        width: 70%;
+        height: 500px;  
+        padding: 50px 40px;
+        margin: auto;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.266);
+        margin-top: 150px;
+    }
+    
+    p
+    {
+        font-size: 40px;
+        font-family: sans-serif;
+        color: #8a9b4a;
+    
+    }
+    
+    #selectID
+    {
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(64, 90, 43);
+        background-color: antiquewhite;
+        width: 80%;
+        margin: auto;
+    }
+    
+    h2
+    {
+        font-size: 40px;
+        color: #8a9b4a;
+        padding: 10px 0px;
+    }
+    
+    .tableee
+    {
+        background-color: rgb(242, 224, 200);
+        color: rgb(64, 90, 43);
+        width: 80%;
+        height: 120px;
+        margin: auto;
+    }
+    
+    .tableee th
+    {
+        font-size: 35px;
+        border: 3px solid black;
+    }
+    
+    .tableee td
+    {
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        border: 3px solid black;
+    }
+    
+    
+    
+}

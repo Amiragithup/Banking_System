@@ -1,0 +1,33 @@
+<!-- view all customers before transformation-->
+
+<div class="container-all" >
+            <h2>Customers Table</h2>
+        
+            <table  class="tablee" >
+                <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>CurrentBalance</th>
+                        </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr *ngFor="let cust of readallusers">
+                        <td>{{cust.customer_id}}</td>
+                        <td>{{cust.customer_name}}</td>
+                        <td>{{cust.customer_email}}</td>
+                        <td>{{cust.customer_current_balance}}</td>
+                    </tr>
+                </tbody>
+            </table>
+       
+</div>
+
+
+
+
+
+
+

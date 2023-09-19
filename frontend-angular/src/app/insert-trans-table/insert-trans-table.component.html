@@ -1,0 +1,31 @@
+<!-- view all customers after transformation-->
+
+<div class="container-all" >
+    <h2>Transformation Table </h2>
+
+    <table  class="tablee" >
+        <thead>
+                <tr>
+                    <th>Sender Name</th>
+                    <th>Receiver Name</th>
+                    <th>Amount of transfered money</th>
+                </tr>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor="let custt of readallusersafter">
+                <td>{{custt.first_customer_name}}</td>
+                <td>{{custt.second_customer_name}}</td>
+                <td>{{custt.amount_of_transformed_money}}</td>
+            
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+

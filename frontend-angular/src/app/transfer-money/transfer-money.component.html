@@ -1,0 +1,57 @@
+<!-- ------------------------------------------------------------------------------ -->
+<!-- transfer money -->
+
+
+<!-- select for first customer -->
+<div class="container" >
+    <form name="firstformid">
+      <select name="selectfirstcust" id="selectfirstcust" class="form-control" [(ngModel)]="selectedfirst"  (change) ="getbalancefirst(selectedfirst)" >
+            <option hidden>Select Sender Name</option>
+            <option *ngFor="let namee of customerNames">
+              {{namee.customer_name}}
+            </option>
+           
+        </select>
+    </form>
+    
+  
+  
+  
+  <!-- select for second customer -->
+  
+    <form name="secondformid">
+      <select name="selectsecondcust" id="selectsecondcust" class="form-control" [(ngModel)]="selectedsecond" (change) ="getbalancesecond(selectedsecond)" >
+            <option hidden>Select Receiver Name</option>
+            <option *ngFor="let namee of customerNames">
+              {{namee.customer_name}}
+            </option>
+           
+        </select>
+    </form>
+    
+  
+  
+
+    <!-- Enter amount of money to transfer -->
+    <label class="lbl1">amount to transfer:</label>
+    <input type="text" id="inputid" name="moneyid" [(ngModel)]="texttamount">
+   
+    <!-- Transfer button -->
+    <br><br>
+    <button class="btn"  (click) = "main()">transfer</button>
+
+    <!-- show button -->
+    <br><br>
+
+    <a routerLink ="../transformationTable">
+      <button class="btn">
+          View Transformation Table
+      </button>
+    </a>
+
+  
+
+    
+  
+
+  

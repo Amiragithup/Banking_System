@@ -1,0 +1,53 @@
+.container
+{
+    width: 80%;
+    height: 500px;  
+    padding: 50px 40px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.266);
+    margin-top: 165px;
+}
+
+
+.form-control
+{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(64, 90, 43);
+    background-color: antiquewhite;
+    width: 90%;
+    margin: auto;
+}
+
+#selectsecondcust
+{
+    margin-top: 20px;
+}
+
+.lbl1
+{
+    font-size: 40px;
+    color: #8a9b4a;
+    padding: 10px px;
+}
+
+#inputid
+{
+    background-color: antiquewhite;
+}
+
+.btn
+{
+    background-color: antiquewhite;
+    
+    margin: 0px 20px;
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
