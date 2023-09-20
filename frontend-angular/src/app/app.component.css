@@ -55,7 +55,7 @@
   
   .nav li a {
   
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 30px;
     text-decoration: none;
     color: rgb(242, 224, 200);
@@ -89,7 +89,7 @@
 
 /*-----------------------------------------------------*/
 
-@media (max-width: 2024px) 
+@media (max-width: 1024px) 
 {
    
     
