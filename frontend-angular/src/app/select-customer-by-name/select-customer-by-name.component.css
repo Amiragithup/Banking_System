@@ -178,61 +178,57 @@ h2
 {
     .container-mt-3
     {
-        width: 70%;
-        height: 500px;  
+        width: 90%;
+        height: 600px;  
         padding: 50px 40px;
         margin: auto;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.266);
         margin-top: 150px;
     }
     
     p
     {
-        font-size: 40px;
-        font-family: sans-serif;
-        color: #8a9b4a;
+        font-size: 30px;
+     
     
     }
     
     #selectID
     {
-        font-size: 35px;
-        font-family: 'Times New Roman', Times, serif;
-        color: rgb(64, 90, 43);
-        background-color: antiquewhite;
+        font-size: 20px;
         width: 80%;
         margin: auto;
     }
     
     h2
     {
-        font-size: 40px;
-        color: #8a9b4a;
+        font-size: 25px;
+      
         padding: 10px 0px;
     }
     
     .tableee
     {
-        background-color: rgb(242, 224, 200);
-        color: rgb(64, 90, 43);
-        width: 80%;
-        height: 120px;
+      
+        width: 70%;
+        height: 80px;
         margin: auto;
+        /* margin-left: -38px; */
+       
     }
+
+    
     
     .tableee th
     {
-        font-size: 35px;
-        border: 3px solid black;
+        font-size: 18px;
+        padding: 1px 10px;
     }
     
     .tableee td
     {
-        font-weight: bold;
-        font-size: 30px;
-        font-family: 'Times New Roman', Times, serif;
-        border: 3px solid black;
+        
+        font-size: 18px;
+       
     }
     
     
