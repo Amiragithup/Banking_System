@@ -6,6 +6,8 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+
 .homeinfo
 {
     width: 70%;
@@ -13,7 +15,7 @@
     margin: auto;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.266);
-    margin-top: 220px;
+    margin-top: 170px;
     /*
     margin-left: 250px; */
 }
@@ -25,7 +27,7 @@ p
 {
     color: rgb(242, 224, 200);;
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 35px;
     padding-bottom: 30px;
     
     
@@ -36,7 +38,7 @@ p
     background-color: antiquewhite;
     
     margin: 0px 20px;
-
+    padding: 2px ;
     color: black;
     font-style: normal;
     font-weight: bold;
@@ -55,7 +57,7 @@ p
 /*---------------------------------------------*/
 
 
-@media (max-width: 2025px) 
+@media (max-width: 1025px) 
 {
    
     .homeinfo
@@ -140,13 +142,13 @@ p
 
     p
     {
-        font-size: 30px;
+        font-size: 22px;
     }
     
     .btn
     {
-        margin: 0px 5px; 
-        font-size: 10px;
+        margin: 4px 5px; 
+        font-size: 18px;
     }
     
 
