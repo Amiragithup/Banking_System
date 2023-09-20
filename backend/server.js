@@ -48,7 +48,7 @@ db.connect(function(error)
 
 //------------------------------------------------
 //assign backend port
-express_server.listen((process.env.PORT) || 4000 , function check(error)
+express_server.listen(4000 , function check(error)
 {
     if(error)
     {
