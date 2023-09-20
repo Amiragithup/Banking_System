@@ -1,5 +1,3 @@
-
-
 .container-all
 {
   
@@ -44,4 +42,51 @@
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     border: 3px solid black;
+}
+
+
+@media (max-width: 400px) 
+{
+    .container-all
+    {
+      
+        
+        width: 90%;
+        height: 40vh;  
+        padding: 70px 3px;
+        margin: auto;
+        text-align: center;
+        margin-top: 250px;
+        
+        
+    }
+    
+    .container-all h2
+    {
+        font-size: 30px;
+      
+    }
+    
+    .tablee 
+    {
+        
+        width: 90%;
+        margin: auto;
+       
+    }
+    .tablee th
+    {
+        font-size: 20px;
+       
+    }
+    
+    .tablee td
+    {
+     
+        font-size: 20px;
+       
+    }
+    
+
+    
 }
